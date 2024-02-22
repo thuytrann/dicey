@@ -1,0 +1,68 @@
+html{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+   margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+   padding: 0;
+   border: 0;
+}
+
+@font-face {
+    font-family: "Picnic";
+    src: url("fonts/PicNic-Regular.otf");
+}
+
+h1{
+    color: white;
+    text-align: center; 
+    font-family: "Picnic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18vw;
+
+    line-height: normal;
+    letter-spacing: -2.76px;
+    text-transform: uppercase;
+    margin: 3.5vh 0 1vh;
+}
+img{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 100vw;
+}
+
+@media screen and (max-width: 480px) {
+    html{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+   padding: 0;
+   border: 0;
+    }
+    body{
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        margin: 0;
+   padding: 0;
+   border: 0;
+    }
+    img{
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        width: 100vw;
+    }
+  }
